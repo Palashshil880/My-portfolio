@@ -7,3 +7,9 @@ h1{
 .name-color{
    color: #53bcdf;
 }
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+}
