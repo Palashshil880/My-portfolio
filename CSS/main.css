@@ -22,6 +22,9 @@ section{
     background-image:linear-gradient(rgb(255, 115, 0),rgb(100, 100, 253)) ;
     color: white;
     font-weight: 550;
-    border-radius: 15px;
+    border-radius: 10px;
     padding: 10px 30px;
+}
+.banner-1{
+    background-image: url(Assets/images/top-banner);
 }
