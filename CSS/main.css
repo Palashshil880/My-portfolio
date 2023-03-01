@@ -8,14 +8,16 @@ h1{
 .name-color{
    color: #53bcdf;
 }
-section{
+.flexible-container{
     display: flex;
+    margin-bottom: 80px;
 }
 .half-width{
     width: 50%;
     padding-left: 5%;
 }
 .half-width img{
+    padding-top: 1%;
     width: 70%;
 }
 .Link-button{
@@ -33,5 +35,30 @@ section{
 .banner-two{
     background-image: url(/Assets/images/dream-bg.png);
     background-repeat: no-repeat;
-    background-position: right;
+    background-position:right bottom;
 }
+.banner-three{
+background-image: url(/Assets/images/exp-bg.png);
+background-repeat: no-repeat;
+background-position:left bottom;
+} 
+.Box-model{
+    width: 25%;
+    margin-left: 4%;
+    margin-right: 20%;
+    padding-left: 20px;
+    padding-right: 5px;
+    text-align: justify;
+    box-shadow: 10px 10px 40px black;
+}
+#web-ex-border-2{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(97, 117, 233),rgb(247, 244, 64));
+    border-image-slice: 1;
+}
+#web-ex-border-1{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(231, 130, 13),rgb(245, 111, 50));
+    border-image-slice: 1;
+}
+
