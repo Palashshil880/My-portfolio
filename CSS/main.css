@@ -61,4 +61,6 @@ background-position:left bottom;
     border-image: linear-gradient(rgb(231, 130, 13),rgb(245, 111, 50));
     border-image-slice: 1;
 }
-
+footer p{
+    text-align: center;
+}
